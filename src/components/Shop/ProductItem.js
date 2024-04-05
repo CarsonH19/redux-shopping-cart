@@ -8,7 +8,7 @@ const ProductItem = (props) => {
 
   const { title, price, description, id } = props;
 
-  const addToCartHandler = (props) => {
+  const addToCartHandler = () => {
     dispatch(
       cartActions.addItemToCart({
         id,
